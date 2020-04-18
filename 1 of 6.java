@@ -1,6 +1,4 @@
-package com.company;
-
-public class Main { // 1 of 6
+public class First { // 1 of 6
 
     public static int remainder(int a, int b) { // 1. remainder of division
         return a % b;
@@ -55,18 +53,5 @@ public class Main { // 1 of 6
         for (int i = 0; i < b; i++)
             a += a;
         return a % c == 0;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(remainder(5, 5));
-        System.out.println(triArea(10, 10));
-        System.out.println(animals(5, 2, 8));
-        System.out.println(profitableGamble(0.9, 3.0, 2.0));
-        System.out.println(operation(15, 11, 11));
-        System.out.println(ctoa('\\'));
-        System.out.println(addUpTo(7));
-        int[] arr = new int[] {1, 5, 9};
-        System.out.println(sumOfCubes(arr));
-        System.out.println(abcmath(1, 2, 3));
     }
 }
